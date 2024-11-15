@@ -1,0 +1,268 @@
+{
+  "buffer_font_family": "Iosevka Nerd Font Mono",
+  "ui_font_size": 15,
+  "buffer_font_size": 15,
+  "experimental.theme_overrides": {
+    "editor.background": "#212337",
+    "editor.foreground": "#ebfafa",
+    "terminal.background": "#212337",
+    "terminal.foreground": "#ebfafa",
+    "editor.gutter.background": "#171928",
+    "editor.active_line.background": "#292e42",
+    "editor.line_number": "#ebfafa",
+    "editor.active_line_number": "#7081d0",
+    "syntax": {
+      "attribute": {
+        "color": "#f265b",
+        "font_style": null,
+        "font_weight": null
+      },
+      "boolean": {
+        "color": "#f16c75",
+        "font_style": null,
+        "font_weight": null
+      },
+      "comment": {
+        "color": "#7081d0",
+        "font_style": null,
+        "font_weight": null
+      },
+      "comment.doc": {
+        "color": "#7081d0",
+        "font_style": null,
+        "font_weight": null
+      },
+      "constant": {
+        "color": "#f1fc79",
+        "font_style": null,
+        "font_weight": null
+      },
+      "constructor": {
+        "color": "#04d1f9",
+        "font_style": null,
+        "font_weight": null
+      },
+      "embedded": {
+        "color": "#dce0e5ff",
+        "font_style": null,
+        "font_weight": null
+      },
+      "emphasis": {
+        "color": "#f1fc79",
+        "font_style": "italic",
+        "font_weight": null
+      },
+      "emphasis.strong": {
+        "color": "#f1fc79",
+        "font_style": "italic",
+        "font_weight": 700
+      },
+      "enum": {
+        "color": "#04d1f9",
+        "font_style": null,
+        "font_weight": null
+      },
+      "function": {
+        "color": "#a48cf2",
+        "font_style": null,
+        "font_weight": null
+      },
+      "hint": {
+        "color": "#04d1f9",
+        "font_style": null,
+        "font_weight": 700
+      },
+      "keyword": {
+        "color": "#04d1f9",
+        "font_style": null,
+        "font_weight": null
+      },
+      "label": {
+        "color": "#04d1f9",
+        "font_style": null,
+        "font_weight": null
+      },
+      "link_text": {
+        "color": "#a48cf2",
+        "font_style": "italic",
+        "font_weight": null
+      },
+      "link_uri": {
+        "color": "#a48cf2",
+        "font_style": "italic",
+        "font_weight": null
+      },
+      "number": {
+        "color": "#f265b5",
+        "font_style": null,
+        "font_weight": null
+      },
+      "operator": {
+        "color": "#37f499",
+        "font_style": null,
+        "font_weight": null
+      },
+      "predictive": {
+        "color": "#5a6a87ff",
+        "font_style": "italic",
+        "font_weight": null
+      },
+      "preproc": {
+        "color": "#f1fc79",
+        "font_style": null,
+        "font_weight": null
+      },
+      "primary": {
+        "color": "#ffffff",
+        "font_style": "italic",
+        "font_weight": null
+      },
+      "property": {
+        "color": "#00FA82",
+        "font_style": null,
+        "font_weight": null
+      },
+      "punctuation": {
+        "color": "#ebfafa",
+        "font_style": null,
+        "font_weight": null
+      },
+      "punctuation.bracket": {
+        "color": "#ebfafa",
+        "font_style": null,
+        "font_weight": null
+      },
+      "punctuation.delimiter": {
+        "color": "#ebfafa",
+        "font_style": null,
+        "font_weight": null
+      },
+      "punctuation.list_marker": {
+        "color": "#ebfafa",
+        "font_style": null,
+        "font_weight": null
+      },
+      "punctuation.special": {
+        "color": "#ebfafa",
+        "font_style": null,
+        "font_weight": null
+      },
+      "string": {
+        "color": "#f1fc79",
+        "font_style": null,
+        "font_weight": null
+      },
+      "string.escape": {
+        "color": "#04d1f9",
+        "font_style": null,
+        "font_weight": null
+      },
+      "string.regex": {
+        "color": "#f16c75",
+        "font_style": null,
+        "font_weight": null
+      },
+      "string.special": {
+        "color": "#37f499",
+        "font_style": null,
+        "font_weight": null
+      },
+      "string.special.symbol": {
+        "color": "#37f499",
+        "font_style": null,
+        "font_weight": null
+      },
+      "tag": {
+        "color": "#04d1f9",
+        "font_style": null,
+        "font_weight": null
+      },
+      "text.literal": {
+        "color": "#000000",
+        "font_style": "italic",
+        "font_weight": null
+      },
+      "title": {
+        "color": "#04d1f9",
+        "font_style": null,
+        "font_weight": 400
+      },
+      "type": {
+        "color": "#f7c67f",
+        "font_style": null,
+        "font_weight": null
+      },
+      "variable": {
+        "color": "#f7c67f",
+        "font_style": null,
+        "font_weight": null
+      },
+      "variable.special": {
+        "color": "#f265b5",
+        "font_style": "italic",
+        "font_weight": null
+      },
+      "variant": {
+        "color": "#ffffff",
+        "font_style": "italic",
+        "font_weight": 700
+      }
+    }
+  },
+  "vim_mode": true,
+  "vim": {
+    "use_multiline_find": true,
+    "use_smartcase_find": true
+  },
+  "lsp": {
+    "jdtls": {
+      "initialization_options": {
+        "settings": {
+          "java": {
+            "configuration": {
+              "runtimes": [
+                {
+                  "name": "JavaSE-17",
+                  "path": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
+                  "default": true
+                }
+              ]
+            },
+            "signatureHelp": {
+              "enabled": true
+            },
+            "maven": {
+              "downloadSources": true
+            },
+            "inlayhints": {
+              "parameterNames": {
+                "enabled": "all"
+              }
+            },
+            "jdt": {
+              "ls": {
+                "lombokSupport": {
+                  "enabled": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "languages": {
+    "Java": {
+      "formatter": {
+        "external": {
+          "command": "java",
+          "arguments": [
+            "-jar",
+            "/Users/fpetros/.local/share/nvim/google-java-format/google-java-format.jar",
+            "-"
+          ]
+        }
+      }
+    }
+  }
+}
